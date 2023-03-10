@@ -1,38 +1,45 @@
-.App {
-  text-align: center;
+body {
+  font-family: "Fugaz One", cursive;
+  /* background-color: dodgerblue; */
+  background-color: #4095bf;
+  font-size: 20px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* form styling */
+.form {
+  background-color: white;
+  margin: auto;
+  width: 50%;
+  padding: 2% 6%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-top: 2%;
+  font-size: 20px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* detail page styling */
+.detail {
+  background-color: white;
+  width: 70%;
+  margin: auto;
+  font-size: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  padding: 2% 4%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.img {
+  width: 260px;
+  border-radius: 70%;
+  height: 260px;
+}
+tr {
+  border-bottom: solid rgb(184, 172, 172) 2px;
+}
+label {
+  font-weight: bold;
+  margin-bottom: 1%;
+}
+.heading {
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  font-size: 25px;
+  text-align: center;
+  margin-top: 2%;
+  text-shadow: 0em 0em 0 rgb(22, 34, 40);
 }
